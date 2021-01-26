@@ -64,7 +64,7 @@ nav{
 
 
 .testo{
-width: 50%; 
+width: 50%;
 position: absolute;
 left: 30px;
 bottom: 50px;
@@ -74,8 +74,11 @@ bottom: 50px;
 
 .sezione2{
   height: 60px;
-  background-color: grey;
-  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#Fertenum{
+  color: rgb(200,200,200);
 }
 
 .sezione3{
