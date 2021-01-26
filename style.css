@@ -2,16 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container{
 width: 60%;
 margin: auto;
-
-}
-
-header{
-
 }
 
 .icona{
@@ -42,15 +38,39 @@ nav{
 
 }
 
-
-
-
 .sezione1{
   height: 350px;
-  background-color: yellow;
+  background-image: url("img/banner.jpg");
+  background-position: center;
+  background-size: 90%;
+  border-radius: 15px;
   margin: 15px 0;
-  border: 1px solid black;
+  position: relative;
+
 }
+
+.layover{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  border-radius: 15px;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 900;
+}
+
+
+
+.testo{
+width: 50%; 
+position: absolute;
+left: 30px;
+bottom: 50px;
+}
+
+
 
 .sezione2{
   height: 60px;
