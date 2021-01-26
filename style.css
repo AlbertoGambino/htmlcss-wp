@@ -79,12 +79,10 @@ bottom: 50px;
 
 #Fertenum{
   color: rgb(200,200,200);
+  font-size: small;
 }
 
 .sezione3{
-  height: 350px;
-  background-color: blue;
-  border: 1px solid black;
   position: relative;
 
 }
@@ -97,31 +95,54 @@ bottom: 50px;
   height: 330px;
   width: 24%;
   float: left;
-  background-color: lightblue;
-  border: 1px solid black;
   margin: 10px 0;
+  position: relative;
+}
 
+
+.fotosx{
+height: 150px;
+width: 100%;
+background-image: url("img/img-1.jpg");
+background-size: cover;
+background-position: center;
+border-radius: 15px;
+position: relative;
 
 }
 
+.articolo{
+  width: 100%;
+  font-size: small;
+  margin-top: 10px;
+
+}
+
+#fotodx{
+ background-image: url("img/img-3.jpg");
+ position: relative;
+}
 .centro{
-  height: 330px;
   width: 50%;
   float: left;
-  background-color: lightblue;
-  border: 1px solid black;
   margin: 10px 1%;
-
-
+  position: relative;
 }
 
-
+.fotocentro {
+  height: 150px;
+  width: 100%;
+  background-image: url("img/banner-2.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  position: relative;
+}
 
 
 
 .riconoscimenti{
   height: 45px;
-  background-color: purple;
   line-height: 45px;
   text-align: center;
 }
