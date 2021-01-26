@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+width: 50%;
+margin: auto;
+
+}
+
+header{
+
+}
+
+.icona{
+  height: 60px;
+  width: 150px;
+  border-right: 1px solid grey;
+  background-image: url("img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-color: rgb(232,232,232);
+
+}
+
+nav{
+  height: 40px;
+  border: 1px solid black;
+  background-color: pink;
+
+}
+
+.sezione1{
+  height: 350px;
+  background-color: yellow;
+  margin: 15px 0;
+  border: 1px solid black;
+}
+
+.sezione2{
+  height: 60px;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.sezione3{
+  height: 350px;
+  background-color: blue;
+  border: 1px solid black;
+  position: relative;
+
+}
+.sezione3::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.side{
+  height: 330px;
+  width: 24%;
+  float: left;
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 10px 0;
+
+
+}
+
+.centro{
+  height: 330px;
+  width: 50%;
+  float: left;
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 10px 1%;
+
+
+}
+
+
+
+
+
+.riconoscimenti{
+  height: 45px;
+  background-color: purple;
+  line-height: 45px;
+  text-align: center;
+}
+
+#cuore{
+  color: red;
+  font-size: 20px;
+}
